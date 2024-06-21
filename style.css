@@ -1,0 +1,44 @@
+body {
+    background-color: #3d5a80; /* Set color */
+    padding: 10px;
+    margin: 0;
+    min-width: 400px;
+  }
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+li {
+    color: rgb(242, 255, 0);
+}
+p {
+   color: rgb(255, 255, 255);
+}
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+a {
+    color: rgb(255, 255, 255);
+}
+#app-title {
+    padding-left: 0;
+    text-decoration: none; 
+}
+button {
+    background-color: #e0fbfc; /* Set color */
+    border: #e0fbfc;
+}
+#delete-task-btn{
+    background-color: #e0fbfc; /* Set color */
+    border: #e0fbfc;
+}
+#ul-list {
+    max-height: 100px; /* Set maximum width */
+    overflow-x: auto; /* Add horizontal scrollbar when content overflows */
+    white-space: nowrap; /* Prevent wrapping of list items */
+    border: 1px solid silver; /* Add a silver line border */
+    padding: 10px; /* Add padding to create space around the content */
+}

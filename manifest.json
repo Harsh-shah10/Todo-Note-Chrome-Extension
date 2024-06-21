@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "My Notes",
+    "version": "1.0",
+    "description": "A notes extension to add notes",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "profile.png"
+    },
+    "permissions": [
+      "tabs"
+    ]
+}
